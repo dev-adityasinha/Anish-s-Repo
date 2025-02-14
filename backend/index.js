@@ -4,7 +4,6 @@ const express = require("express");
 const cors = require("cors");
 const User = require("./models/User")
 const app = express();
-const hello = require("dotenv").config()
 
 app.use(express.json());
 app.use(cors());
