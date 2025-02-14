@@ -13,7 +13,7 @@ mongoose.connect("mongodb+srv://anish:abc123anish@cluster0.pzs1q.mongodb.net/use
   .then(() => console.log("Database connected successfully"))
   .catch((e) => console.log("Error starting database:", e))
 
-console.log(process.env.MONGO_URI)
+// console.log(process.env.MONGO_URI)
 app.post("/saveData", async (req, res, next) => {
   try {
     const { name, address, phone, message, item } = req.body;
