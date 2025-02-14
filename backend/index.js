@@ -1,8 +1,10 @@
-const express = require("express");
+require("dotenv").config();
 const mongoose = require("mongoose");
+const express = require("express");
 const cors = require("cors");
 const User = require("./models/User")
 const app = express();
+const hello = require("dotenv").config()
 
 app.use(express.json());
 app.use(cors());
@@ -11,7 +13,7 @@ mongoose.connect("mongodb+srv://anish:abc123anish@cluster0.pzs1q.mongodb.net/use
   .then(() => console.log("Database connected successfully"))
   .catch((e) => console.log("Error starting database:", e))
 
-
+console.log(process.env.MONGO_URI)
 app.post("/saveData", async (req, res, next) => {
   try {
     const { name, address, phone, message, item } = req.body;
