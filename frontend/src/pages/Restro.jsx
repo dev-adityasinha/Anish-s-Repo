@@ -71,7 +71,7 @@ export const Restaurant = () => {
                         </p>
                     </div>
                     <div className="about-img">
-                        <img src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg" alt="food" />
+                        <img src="https://i.postimg.cc/mgpwzmx9/about-photo.jpg" alt="food" loading="lazy" />
                     </div>
                 </div>
             </section>
@@ -80,7 +80,7 @@ export const Restaurant = () => {
                 <div className="food-container container">
                     <div className="food-type fruite">
                         <div className="img-container">
-                            <img src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="error" />
+                            <img src="https://i.postimg.cc/yxThVPXk/food1.jpg" alt="error" loading="lazy" />
                             <div className="img-content">
                                 <h3>FRUITS</h3>
                                 <a href="https://en.wikipedia.org/wiki/Fruit" className="btn btn-primary" target="blank">learn
@@ -90,7 +90,7 @@ export const Restaurant = () => {
                     </div>
                     <div className="food-type vegetable">
                         <div className="img-container">
-                            <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" />
+                            <img src="https://i.postimg.cc/Nffm6Rkk/food2.jpg" alt="error" loading="lazy" />
                             <div className="img-content">
                                 <h3>VEGETABLE</h3>
                                 <a href="https://en.wikipedia.org/wiki/Vegetable" className="btn btn-primary" target="blank">learn
@@ -100,7 +100,7 @@ export const Restaurant = () => {
                     </div>
                     <div className="food-type grin">
                         <div className="img-container">
-                            <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" />
+                            <img src="https://i.postimg.cc/76ZwsPsd/food3.jpg" alt="error" loading="lazy" />
                             <div className="img-content">
                                 <h3>GRAIN</h3>
                                 <a href="https://en.wikipedia.org/wiki/Grain" className="btn btn-primary" target="blank">learn
@@ -115,7 +115,7 @@ export const Restaurant = () => {
                 <div className="food-menu-container container">
                     <div className="food-menu-item">
                         <div className="food-img">
-                            <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="" />
+                            <img src="https://i.postimg.cc/wTLMsvSQ/food-menu1.jpg" alt="food-img" loading="lazy" />
                         </div>
                         <div className="food-description">
                             <h2 className="food-titile">GRILLED VEG SKEWERS</h2>
@@ -128,7 +128,7 @@ export const Restaurant = () => {
 
                     <div className="food-menu-item">
                         <div className="food-img">
-                            <img src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg" alt="error" />
+                            <img src="https://i.postimg.cc/sgzXPzzd/food-menu2.jpg" alt="error" loading="lazy" />
                         </div>
                         <div className="food-description">
                             <h2 className="food-titile">FRESH FRUIT SALAD</h2>
@@ -140,7 +140,7 @@ export const Restaurant = () => {
                     </div>
                     <div className="food-menu-item">
                         <div className="food-img">
-                            <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="" />
+                            <img src="https://i.postimg.cc/8zbCtYkF/food-menu3.jpg" alt="food-img" loading="lazy" />
                         </div>
                         <div className="food-description">
                             <h2 className="food-titile">LENTIL VEG CURRY</h2>
@@ -153,7 +153,7 @@ export const Restaurant = () => {
                     </div>
                     <div className="food-menu-item">
                         <div className="food-img">
-                            <img src="https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg" alt="" />
+                            <img src="https://i.postimg.cc/Yq98p5Z7/food-menu4.jpg" alt="food-img" loading="lazy" />
                         </div>
                         <div className="food-description">
                             <h2 className="food-titile">GRILLED AVOCADO SALAD</h2>
@@ -165,7 +165,7 @@ export const Restaurant = () => {
                     </div>
                     <div className="food-menu-item">
                         <div className="food-img">
-                            <img src="https://i.postimg.cc/KYnDqxkP/food-menu5.jpg" alt="" />
+                            <img src="https://i.postimg.cc/KYnDqxkP/food-menu5.jpg" alt="food-img" loading="lazy" />
                         </div>
                         <div className="food-description">
                             <h2 className="food-titile">GRILLED CHICKEN BREAST</h2>
@@ -177,7 +177,7 @@ export const Restaurant = () => {
                     </div>
                     <div className="food-menu-item">
                         <div className="food-img">
-                            <img src="https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg" alt="" />
+                            <img src="https://i.postimg.cc/Jnxc8xQt/food-menu6.jpg" alt="food-img" loading="lazy" />
                         </div>
                         <div className="food-description">
                             <h2 className="food-titile">VEGETABLE STIR-FRY</h2>
@@ -195,7 +195,7 @@ export const Restaurant = () => {
                     <div className="testimonial-box">
                         <div className="customer-detail">
                             <div className="customer-photo">
-                                <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
+                                <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="user-photo" loading="lazy" />
                                 <p className="customer-name">ROSS LEE</p>
                             </div>
                         </div>
@@ -216,7 +216,7 @@ export const Restaurant = () => {
                     <div className="testimonial-box">
                         <div className="customer-detail">
                             <div className="customer-photo">
-                                <img src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="" />
+                                <img src="https://i.postimg.cc/sxd2xCD2/female-photo1.jpg" alt="user-image" loading="lazy" />
                                 <p className="customer-name">AMELIA WATSON</p>
                             </div>
                         </div>
@@ -236,7 +236,7 @@ export const Restaurant = () => {
                     <div className="testimonial-box">
                         <div className="customer-detail">
                             <div className="customer-photo">
-                                <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="" />
+                                <img src="https://i.postimg.cc/fy90qvkV/male-photo3.jpg" alt="user-image" loading="lazy" />
                                 <p className="customer-name">BEN ROY</p>
                             </div>
                         </div>
@@ -257,7 +257,7 @@ export const Restaurant = () => {
             <section id="contact">
                 <div className="contact-container container">
                     <div className="contact-img">
-                        <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
+                        <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="restaurant-image" loading="lazy" />
                     </div>
 
                     <div className="form-container" >
