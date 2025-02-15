@@ -5,6 +5,7 @@
 import { useState } from "react";
 
 export const Restaurant = () => {
+    // setting state variables
     const [name, setName] = useState("");
     const [phone, setPhone] = useState("");
     const [address, setAddress] = useState("");
@@ -13,6 +14,7 @@ export const Restaurant = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
+        // sending credentials to the backend server
         const response = await fetch("http://localhost:5000/saveData", {
             method: "POST",
             headers: {
@@ -21,8 +23,6 @@ export const Restaurant = () => {
             body: JSON.stringify({ name, phone, address, message, item })
         })
         const data = await response.json();
-
-        // console.log(data);
         alert("Order placed successfully")
         setAddress("")
         setMessage("")
