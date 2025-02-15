@@ -13,17 +13,17 @@ export const Restaurant = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const response = fetch("http://localhost:5000/saveData", {
+        const response = await fetch("http://localhost:5000/saveData", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({ name, phone, address, message, item })
         })
-        const data = response.json();
+        const data = await response.json();
 
         // console.log(data);
-        alert("Order Request Sent")
+        alert("Order placed successfully")
         setAddress("")
         setMessage("")
         setPhone("")
