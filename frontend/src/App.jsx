@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Restaurant } from './pages/Restro'
+import { Restaurant } from './pages/Restro.jsx'
 
 function App() {
   return (

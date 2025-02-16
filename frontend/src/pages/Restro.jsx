@@ -29,6 +29,7 @@ export const Restaurant = () => {
         setPhone("")
         setName("")
         setItem("")
+
     };
 
     return (
@@ -263,11 +264,11 @@ export const Restaurant = () => {
                     <div className="form-container" >
                         <form onSubmit={handleSubmit}>
                             <h2>PLACE YOUR ORDER</h2>
-                            <input type="text" placeholder="Your Name" name="your name" value={name} onChange={(e) => setName(e.target.value)} />
-                            <input type="text" placeholder="Phone number" value={phone} onChange={(e) => setPhone(e.target.value)} name="phone number" />
-                            <input type="text" placeholder="Address details" value={address} onChange={(e) => setAddress(e.target.value)} name="address details" />
-                            <input type="text" placeholder="Place your order item" value={item} onChange={(e) => setItem(e.target.value)} name="add your item" />
-                            <input type="text" placeholder="Add your message" value={message} onChange={(e) => setMessage(e.target.value)} name="add your message" />
+                            <input type="text" placeholder="Your Name" name="your name" value={name} onChange={(e) => setName(e.target.value)} required />
+                            <input type="text" placeholder="Phone number" value={phone} onChange={(e) => setPhone(e.target.value)} name="phone number" required />
+                            <input type="text" placeholder="Address details" value={address} onChange={(e) => setAddress(e.target.value)} name="address details" required />
+                            <input type="text" placeholder="Place your order item" value={item} onChange={(e) => setItem(e.target.value)} name="add your item" required />
+                            <input type="text" placeholder="Add your message" value={message} onChange={(e) => setMessage(e.target.value)} name="add your message" required/>
                             <button type="submit" className="btn">Submit</button>
                         </form>
                     </div>
