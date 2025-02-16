@@ -22,7 +22,7 @@ export const Restaurant = () => {
             },
             body: JSON.stringify({ name, phone, address, message, item })
         })
-        const data = await response.json();
+        // const data = await response.json();
         alert("Order placed successfully")
         setAddress("")
         setMessage("")
