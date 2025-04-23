@@ -15,7 +15,7 @@ mongoose.connect("mongodb+srv://anish:abc123anish@cluster0.pzs1q.mongodb.net/use
 // console.log(process.env.MONGO_URI)
 app.post("/saveData", async (req, res, next) => {
   try {
-    const { name, address, phone, message, item } = req.body;
+    const { name, address, phone, message, item } = await req.body;
     const newUser = new User({ name, address, phone, item, message })
     await newUser.save()
     res.status(201).json({ success: true, message: `Data saved successfully` })
