@@ -7,7 +7,7 @@ function App() {
 
     <BrowserRouter>
       <Routes>
-        <Route path='/restro.html' element={<Restaurant />} />
+        <Route path='https://anish-s-repo.vercel.app/restro.html' element={<Restaurant />} />
 
         {/* </Route> */}
       </Routes>
